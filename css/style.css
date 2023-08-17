@@ -17,6 +17,7 @@
     padding: 10px;
     border-radius: 10px;
 }
+
 input:focus{
     border-color: #35A29F;
 }
@@ -74,4 +75,11 @@ button:hover {
     align-items: center;
     min-height: 100vh;
     background-color: #f0f0f0; 
+    font-family: Arial;
 } 
+
+#foot{
+    text-align: center;
+    font-family: Arial;
+    font-size: 10px;
+}
