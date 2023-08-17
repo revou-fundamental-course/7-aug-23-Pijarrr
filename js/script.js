@@ -28,9 +28,50 @@ function resetluas(){
     document.getElementById("tinggi").value = "";
     document.getElementById("hasilLuas").innerHTML = "";
 }
+
 function resetkeliling(){
     document.getElementById("sisia").value = "";
     document.getElementById("sisib").value = "";
     document.getElementById("sisic").value = "";
     document.getElementById("hasilKeliling").innerHTML = "";
 }
+
+    var validasi = document.getElementById("alas");
+
+    validasi.addEventListener("input", function(event) {
+        let inputValue = event.target.value;
+        inputValue = inputValue.replace(/[^\d.-]/g, "");
+        event.target.value = inputValue;
+    });
+
+    var validasi = document.getElementById("tinggi");
+
+    validasi.addEventListener("input", function(event) {
+        let inputValue = event.target.value;
+        inputValue = inputValue.replace(/[^\d.-]/g, "");
+        event.target.value = inputValue;
+    });
+
+    var validasi = document.getElementById("sisia");
+
+    validasi.addEventListener("input", function(event) {
+        let inputValue = event.target.value;
+        inputValue = inputValue.replace(/[^\d.-]/g, "");
+        event.target.value = inputValue;
+    });
+
+    var validasi = document.getElementById("sisib");
+
+    validasi.addEventListener("input", function(event) {
+        let inputValue = event.target.value;
+        inputValue = inputValue.replace(/[^\d.-]/g, "");
+        event.target.value = inputValue;
+    });
+
+    var validasi = document.getElementById("sisic");
+
+    validasi.addEventListener("input", function(event) {
+        let inputValue = event.target.value;
+        inputValue = inputValue.replace(/[^\d.-]/g, "");
+        event.target.value = inputValue;
+    });

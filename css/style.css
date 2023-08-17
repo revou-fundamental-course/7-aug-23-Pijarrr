@@ -17,6 +17,9 @@
     padding: 10px;
     border-radius: 10px;
 }
+input:focus{
+    border-color: #35A29F;
+}
 
 input, button {
     margin: 5px;
@@ -50,7 +53,6 @@ input, button {
     padding: 10px;
     color: white;
     margin: 5px;
-    display: flex;
 }
 
 .btn{
@@ -64,12 +66,12 @@ button:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
 }
-body {
+    body {
     margin: 0;
     padding-left: 200px;
     padding-right: 200px;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f0f0f0;
-}
+    background-color: #f0f0f0; 
+} 
